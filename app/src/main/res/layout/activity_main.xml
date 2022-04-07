@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
+        android:saveEnabled="false"
         android:layout_below="@+id/next_term"/>
 
     <EditText
