@@ -18,12 +18,11 @@ public class Colocviu1_2SecondaryActivity extends AppCompatActivity {
             int sum = 0;
             for (int i = 0; i < all_terms.length(); i++) {
                 if (Character.isDigit(all_terms.charAt(i)))
-                    sum =   sum + Character.getNumericValue(all_terms.charAt(i));
+                    sum = sum + Character.getNumericValue(all_terms.charAt(i));
             }
-            setResult(Integer.parseInt(String.valueOf(sum)), null);
 
+            setResult(Integer.parseInt(String.valueOf(sum)), null);
             finish();
         }
-
     }
 }
